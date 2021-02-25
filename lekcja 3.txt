@@ -1,0 +1,34 @@
+public class lekcja3 {
+
+
+    //zadanie 1
+    public static void main(String[] args) {
+        {
+            int intA = 7;
+            double doubleA = 2;
+            char CharA = '!';
+            String StringA = " jest wieksze od ";
+            System.out.println(intA + StringA + doubleA + CharA);
+        }
+
+//zadanie 2
+
+        {
+            int A = 4;
+            int B = 5;
+            int sum = (A * A) + (B * B);
+            System.out.println("wynik = " + sum);
+        }
+
+
+//zadanie 3
+
+// zadanie 4
+        {
+            String myStringG = "Dominik";
+            String myStringH = "Nowakowski";
+            System.out.println(myStringG + "\n" + myStringH);
+        }
+
+    }
+}
